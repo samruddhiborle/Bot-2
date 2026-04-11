@@ -1,0 +1,24 @@
+{
+  "name": "smart-security-robot-dashboard",
+  "version": "1.0.0",
+  "description": "Secure web dashboard for monitoring a smart security robot and ESP32-CAM alerts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "security",
+    "dashboard",
+    "express",
+    "firebase",
+    "esp32-cam"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0"
+  }
+}
